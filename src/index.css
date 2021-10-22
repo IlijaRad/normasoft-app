@@ -1,0 +1,138 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.align-c {
+  align-items: center;
+}
+
+.mr20 {
+  margin-right: 20px !important;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.mb5 {
+  margin-bottom: 5px;
+}
+
+.mb15 {
+  margin-bottom: 15px !important;
+}
+
+.mb30 {
+  margin-bottom: 30px !important;
+}
+
+.mb50 {
+  margin-bottom: 50px;
+}
+
+.post-title {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.2s all;
+}
+
+.post-title.link:hover {
+  color: #ff8c00;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.post-form div {
+  margin-bottom: 8px;
+}
+
+.post-heading {
+  width: fit-content;
+
+  display: table;
+}
+
+.alert {
+  color: rgb(211, 47, 47);
+}
+
+.top-left {
+  position: absolute !important;
+  top: 20px;
+  left: 30px;
+}
+
+.top-right {
+  position: absolute !important;
+  top: 10px;
+  right: 10px;
+}
+
+.small-card {
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.comment-container {
+  display: flex;
+}
+
+.button-edit {
+  width: 75px;
+}
+
+.button-post {
+  width: 90px;
+  height: 35px;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.min800 {
+  min-width: 700px;
+}
+
+.w50 {
+  width: 50%;
+}
